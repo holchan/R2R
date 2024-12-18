@@ -66,6 +66,12 @@ class R2RIngestionProvider(IngestionProvider):
         DocumentType.RTF: parsers.RTFParser,
         DocumentType.TIFF: parsers.TIFFParser,
         DocumentType.XLS: parsers.XLSParser,
+        DocumentType.PY: parsers.GenericCodeParser,
+        DocumentType.SH: parsers.GenericCodeParser,
+        DocumentType.MK: parsers.GenericCodeParser,
+        DocumentType.USH: parsers.GenericCodeParser,
+        DocumentType.IN: parsers.GenericCodeParser,
+        DocumentType.CFG: parsers.GenericCodeParser,
     }
 
     EXTRA_PARSERS = {

@@ -36,4 +36,5 @@ __all__ = [
     "MDParser",
     "HTMLParser",
     "TextParser",
+    "GenericCodeParser",
 ]
